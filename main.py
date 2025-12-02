@@ -64,8 +64,8 @@ OFFLINE_LANGS = {
 }
 
 VOSK_MODELS = {
-    "English": r"D:\SVVV\projects\real time voice translation\vosk-model-small-en-us-0.15",
-    "Hindi": r"D:\SVVV\projects\real time voice translation\vosk-model-small-hi-0.22"
+    "English": r"enter path of vosk model",
+    "Hindi": r"enter path of vosk model"
 }
 
 # Check offline models
@@ -479,3 +479,4 @@ if page == "Sign Language Detection":
         cap.release()
     else:
         st.info("Click **Start Detection** to begin sign language recognition using your webcam.")
+
